@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Watch</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f13a295f79.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="logo" src="./images/logo.png" alt="">
+        </div>
+    </header>
+
+    <section id="container" class="container">
+        <div id="watchImages" class="watchImages">
+            <img id="watch" class="image" src="./images/blackSmartWatch.png" alt="">
+            <div id="digiClock" class="digiClock">
+                <span id="hrs">00</span>
+                <span class="colon">:</span>
+                <span id="min">00</span>
+                <span class="colon">:</span>
+                <span id="sec">00</span>
+                <span id="partOfDay">AM</span>
+            </div>
+            <div id="heartRate" class="heartRate">
+                <span><i class="fa-solid fa-heart-pulse heart"></i></span>
+                <p>78</p>
+            </div>
+        </div>
+        <div class="text">
+            <h1>FitBit 19 - The Smartest Watch</h1>
+            <p>Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor.</p>
+
+            <div class="selectColor">
+                <h3>Select Color</h3>
+                <div class="btnColor">
+                    <button id="btnBlack" class="black"></button>
+                    <button id="btnRed" class="red"></button>
+                    <button id="btnBlue" class="blue"></button>
+                    <button id="btnPink" class="pink"></button>
+                    <button id="btnPurple" class="purple"></button>
+                </div>
+            </div>
+
+            <div class="features">
+                <h3>Features</h3>
+                <div>
+                    <button id="btnTime" class="time">Time</button>
+                    <button id="btnHeartRate" class="btnHeartRate">Heart Rate</button>
+                </div>
+            </div>
+            <button class="buy" type="submit">BUY NOW</button>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>
